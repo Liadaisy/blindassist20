@@ -3,8 +3,10 @@ streamlit-webrtc>=0.47.0
 ultralytics>=8.1.0
 torch>=2.0.0
 torchvision>=0.15.0
-opencv-python>=4.8.0
+opencv-python-headless>=4.8.0
 numpy>=1.23.0
+scipy>=1.10.0
+pandas>=1.5.0
 edge-tts>=6.1.0
 gTTS>=2.3.0
 deep-translator>=1.11.0
@@ -15,4 +17,3 @@ yt-dlp>=2023.7.6
 av>=10.0.0
 aiortc>=1.8.0
 aioice>=0.9.0
-
