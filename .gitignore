@@ -1,0 +1,36 @@
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Audio cache & temporary media outputs
+Data/audio_cache/*.mp3
+!Data/audio_cache/.gitkeep
+temp/
+*.tmp
+*.mp4.out.mp4
+processed_*.mp4
+
+# Environment variables & local secrets
+.env
+.env.local
+*.env
+.streamlit/secrets.toml
+
+# IDE & OS-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
